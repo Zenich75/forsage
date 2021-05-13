@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdeece3f-8913-425b-a8a9-651531748bce" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/less/headers.less" beforeDir="false" afterPath="$PROJECT_DIR$/assets/less/headers.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/menu.less" beforeDir="false" afterPath="$PROJECT_DIR$/assets/less/menu.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.min.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,8 +72,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Grunt.js.prepareCss" />
         <item itemvalue="Grunt.js.watch" />
+        <item itemvalue="Grunt.js.prepareCss" />
       </list>
     </recent_temporary>
   </component>
@@ -108,7 +112,7 @@
       <workItem from="1620822059851" duration="604000" />
       <workItem from="1620842355607" duration="4351000" />
       <workItem from="1620907389792" duration="1762000" />
-      <workItem from="1620909901393" duration="623000" />
+      <workItem from="1620909901393" duration="5479000" />
     </task>
     <servers />
   </component>
@@ -116,22 +120,22 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1874" height="276" key="GridCell.Tab.0.bottom" timestamp="1620909889158">
+    <state width="1874" height="276" key="GridCell.Tab.0.bottom" timestamp="1620946144040">
       <screen x="0" y="0" width="1920" height="1045" />
     </state>
-    <state width="1874" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1045@0.0.1920.1045" timestamp="1620909889158" />
-    <state width="1874" height="276" key="GridCell.Tab.0.center" timestamp="1620909889158">
+    <state width="1874" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1045@0.0.1920.1045" timestamp="1620946144040" />
+    <state width="1874" height="276" key="GridCell.Tab.0.center" timestamp="1620946144039">
       <screen x="0" y="0" width="1920" height="1045" />
     </state>
-    <state width="1874" height="276" key="GridCell.Tab.0.center/0.0.1920.1045@0.0.1920.1045" timestamp="1620909889158" />
-    <state width="1874" height="276" key="GridCell.Tab.0.left" timestamp="1620909889157">
+    <state width="1874" height="276" key="GridCell.Tab.0.center/0.0.1920.1045@0.0.1920.1045" timestamp="1620946144039" />
+    <state width="1874" height="276" key="GridCell.Tab.0.left" timestamp="1620946144039">
       <screen x="0" y="0" width="1920" height="1045" />
     </state>
-    <state width="1874" height="276" key="GridCell.Tab.0.left/0.0.1920.1045@0.0.1920.1045" timestamp="1620909889157" />
-    <state width="1874" height="276" key="GridCell.Tab.0.right" timestamp="1620909889158">
+    <state width="1874" height="276" key="GridCell.Tab.0.left/0.0.1920.1045@0.0.1920.1045" timestamp="1620946144039" />
+    <state width="1874" height="276" key="GridCell.Tab.0.right" timestamp="1620946144039">
       <screen x="0" y="0" width="1920" height="1045" />
     </state>
-    <state width="1874" height="276" key="GridCell.Tab.0.right/0.0.1920.1045@0.0.1920.1045" timestamp="1620909889158" />
+    <state width="1874" height="276" key="GridCell.Tab.0.right/0.0.1920.1045@0.0.1920.1045" timestamp="1620946144039" />
     <state x="464" y="156" key="SettingsEditor" timestamp="1620681246351">
       <screen x="0" y="0" width="1920" height="1045" />
     </state>

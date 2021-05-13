@@ -1,19 +1,28 @@
 #headerMain {
 	width: 100%;
-	height: calc(100vh - 79px);
+	//height: calc(100vh - 51px);
+	height: 100vh;
 	background: url("../images/main-header-background.jpeg") center center no-repeat, url("../images/003.png") bottom center no-repeat;
 	background-size: cover;
 	border-bottom: 1px solid #000;
 
+	@media all and (min-width: 576px) {
+		//height: calc(100vh - 79px);
+	}
+
 	.schoolNameBlock {
 		width: 90%;
 		max-width: 1000px;
-		margin: 0 auto;
-		position: relative;
-		margin-top: 79px;
+		//margin: 0 auto;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translateY(-50%) translateX(-50%);
+
 
 		@media all and (min-width: 576px) {
 			width: 100%;
+			//margin-top: 79px;
 		}
 
 		.schoolTitle {
@@ -23,13 +32,20 @@
 			letter-spacing: 4px;
 			text-transform: uppercase;
 			margin-bottom: 15px;
-			padding-top: 125px;
+			//padding-top: 125px;
 
 			@media all and (min-width: 576px) {
+				font-size: 24px;
+				line-height: 26px;
+				margin-bottom: 30px;
+				//padding-top: 190px;
+			}
+
+			@media all and (min-width: 992px) {
 				font-size: 36px;
 				line-height: 36px;
-				margin-bottom: 30px;
-				padding-top: 190px;
+				margin-bottom: 50px;
+				//padding-top: 190px;
 			}
 		}
 
@@ -43,6 +59,11 @@
 			margin-bottom: 15px;
 
 			@media all and (min-width: 576px) {
+				font-size: 100px;
+				margin-bottom: 30px;
+			}
+
+			@media all and (min-width: 576px) {
 				font-size: 145px;
 				margin-bottom: 68px;
 			}
@@ -51,13 +72,19 @@
 		.schoolPlane {
 			position: relative;
 			img {
-				width: 80%;
+				width: 60%;
 				transform: rotate(-15deg);
 				position: absolute;
 				bottom: -115px;
 				right: 20px;
 
 				@media all and (min-width: 576px) {
+					width: 60%;
+					bottom: -145px;
+				}
+
+				@media all and (min-width: 992px) {
+					width: 80%;
 					bottom: -145px;
 				}
 			}

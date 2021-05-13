@@ -44,8 +44,14 @@
 				font-weight: 400;
 				display: none;
 
-				@media all and (min-width: 576px) {
+/*				@media all and (min-width: 576px) {
+					font-size: 18px;
+					display: block;
+				}*/
+
+				@media all and (min-width: 992px) {
 					font-size: 24px;
+					display: block;
 				}
 			}
 		}
@@ -63,6 +69,15 @@
 			.menuItem {
 				display: inline-block;
 				margin: 0 10px;
+
+				a, a:visited {
+					color: #434343;
+					text-decoration: none;
+				}
+
+				a:hover {
+					text-decoration: underline;
+				}
 			}
 		}
 
@@ -199,12 +214,14 @@
 		}
 
 		.footerSchoolName {
-			margin-left: 30px;
-			font-size: 12px;
+			margin-left: 15px;
+			font-size: 16px;
 			font-weight: 400;
 
-			@media all and (min-width: 576px) {
+			@media all and (min-width: 992px) {
+				margin-left: 30px;
 				font-size: 24px;
+				display: block;
 			}
 		}
 	}
@@ -216,7 +233,7 @@
 		display: none;
 
 		@media all and (min-width: 576px) {
-			display: block;
+			display: inline-block;
 		}
 
 		.footerMenuItem {
