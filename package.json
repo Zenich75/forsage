@@ -1,0 +1,24 @@
+{
+  "name": "ForsageSchool",
+  "version": "1.0.0",
+  "description": "Forsage flight school",
+  "repository": {
+    "type": "git",
+    "url": "https://zenich75@bitbucket.org/zenich75/cedesign-new.git"
+  },
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dmitry Zenov",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.2.0",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-cssmin": "^4.0.0",
+    "grunt-contrib-less": "^3.0.0",
+    "grunt-contrib-uglify": "^5.0.1",
+    "grunt-contrib-watch": "^1.1.0"
+  }
+}

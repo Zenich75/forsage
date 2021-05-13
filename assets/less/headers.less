@@ -1,0 +1,82 @@
+#headerMain {
+	width: 100%;
+	height: calc(100vh - 79px);
+	background: url("/images/main-header-background.jpeg") center center no-repeat, url("/images/003.png") bottom center no-repeat;
+	background-size: cover;
+	border-bottom: 1px solid #000;
+
+	.schoolNameBlock {
+		width: 90%;
+		max-width: 1000px;
+		margin: 0 auto;
+		position: relative;
+		margin-top: 79px;
+
+		@media all and (min-width: 576px) {
+			width: 100%;
+		}
+
+		.schoolTitle {
+			color: #FFFFFF;
+			font-size: 18px;
+			line-height: 20px;
+			letter-spacing: 4px;
+			text-transform: uppercase;
+			margin-bottom: 15px;
+			padding-top: 125px;
+
+			@media all and (min-width: 576px) {
+				font-size: 36px;
+				line-height: 36px;
+				margin-bottom: 30px;
+				padding-top: 190px;
+			}
+		}
+
+		.schoolName {
+			color: #FFFFFF;
+			font-size: 50px;
+			font-weight: 900;
+			line-height: 36px;
+			letter-spacing: 4px;
+			text-transform: uppercase;
+			margin-bottom: 15px;
+
+			@media all and (min-width: 576px) {
+				font-size: 145px;
+				margin-bottom: 68px;
+			}
+		}
+
+		.schoolPlane {
+			position: relative;
+			img {
+				width: 80%;
+				transform: rotate(-15deg);
+				position: absolute;
+				bottom: -115px;
+				right: 20px;
+
+				@media all and (min-width: 576px) {
+					bottom: -145px;
+				}
+			}
+		}
+
+		.schoolButton {
+			display: inline-block;
+			background-color: #ffb800;
+			color: black;
+			font-size: 16px;
+			font-weight: 700;
+			text-transform: lowercase;
+			text-align: center;
+			padding: 20px;
+
+			@media all and (min-width: 576px) {
+				padding: 20px 50px;
+			}
+		}
+
+	}
+}

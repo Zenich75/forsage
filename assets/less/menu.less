@@ -1,0 +1,327 @@
+.nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: white;
+	text-align: center;
+	border-bottom: 1px solid #000000;
+	z-index: 100;
+
+	.menuBlock {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;
+		max-width: 1110px;
+		margin: 0 auto;
+		background-color: white;
+
+		.logo {
+			display: flex;
+			flex-direction: row;
+			justify-content: flex-start;
+			align-items: center;
+
+			.schoolLogo {
+				width: 30px;
+				margin: 10px 10px 5px 10px;
+
+				@media all and (min-width: 576px) {
+					width: 60px;
+					margin: 10px 0 0 10px;
+				}
+
+				img {
+					width: 100%;
+				}
+			}
+
+			.schoolName {
+				margin-left: 30px;
+				font-size: 12px;
+				font-weight: 400;
+				display: none;
+
+				@media all and (min-width: 576px) {
+					font-size: 24px;
+				}
+			}
+		}
+
+		.menu {
+			display: none;
+			font-weight: 400;
+			font-size: 14px;
+			height: 30px;
+
+			@media all and (min-width: 576px) {
+				display: block;
+			}
+
+			.menuItem {
+				display: inline-block;
+				margin: 0 10px;
+			}
+		}
+
+		.hamMenu {
+			display: inline-block;
+			position: relative;
+
+			@media all and (min-width: 576px) {
+				display: none;
+			}
+
+
+			#hamMenuToggle {
+				opacity: 0;
+			}
+			#hamMenuToggle:checked ~ .hamMenuBtn > span {
+				transform: rotate(45deg);
+			}
+			#hamMenuToggle:checked ~ .hamMenuBtn > span::before {
+				top: 0;
+				transform: rotate(0);
+			}
+			#hamMenuToggle:checked ~ .hamMenuBtn > span::after {
+				top: 0;
+				transform: rotate(90deg);
+			}
+			#hamMenuToggle:checked ~ .hamMenuBox {
+				visibility: visible;
+				right: 0;
+			}
+
+			.hamMenuBtn {
+				display: flex;
+				align-items: center;
+				position: fixed;
+				top: 10px;
+				right: 20px;
+
+				width: 26px;
+				height: 26px;
+
+				cursor: pointer;
+				z-index: 1;
+
+				span, span::before, span::after {
+					display: block;
+					position: absolute;
+
+					width: 100%;
+					height: 2px;
+
+					background-color: #616161;
+
+					transition-duration: .25s;
+				}
+
+				span::before {
+					content: '';
+					top: -8px;
+				}
+
+				span::after {
+					content: '';
+					top: 8px;
+				}
+			}
+
+			.hamMenuBox {
+				display: block;
+				position: fixed;
+				visibility: hidden;
+				top: 0;
+				right: -100%;
+
+				width: 150px;
+				height: 100%;
+
+				margin: 0;
+				padding: 80px 0;
+
+				list-style: none;
+
+				background-color: #ffffff;
+				box-shadow: 1px 0 6px rgba(0, 0, 0, .2);
+
+				transition-duration: .5s;
+
+				.hamMenuItem {
+					display: block;
+					padding: 12px 24px;
+					color: #333;
+					//font-family: 'Roboto', sans-serif;
+					font-size: 14px;
+					//font-weight: 600;
+					text-decoration: none;
+					transition-duration: .5s;
+
+					&:hover {
+						background-color: #CFD8DC;
+					}
+				}
+			}
+		}
+	}
+}
+
+.footerMenuBlock {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	max-width: 1110px;
+	margin: 0 auto;
+
+	.footerLogo {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		align-items: center;
+
+		.footerSchoolLogo {
+			width: 60px;
+			margin: 10px 10px 5px 10px;
+
+			@media all and (min-width: 576px) {
+				width: 60px;
+				margin: 10px 0 0 10px;
+			}
+
+			img {
+				width: 100%;
+			}
+		}
+
+		.footerSchoolName {
+			margin-left: 30px;
+			font-size: 12px;
+			font-weight: 400;
+
+			@media all and (min-width: 576px) {
+				font-size: 24px;
+			}
+		}
+	}
+
+	.footerMenu {
+		font-weight: 400;
+		font-size: 14px;
+		height: 30px;
+		display: none;
+
+		@media all and (min-width: 576px) {
+			display: block;
+		}
+
+		.footerMenuItem {
+			display: inline-block;
+			margin: 0 10px;
+
+			a, a:visited {
+				color: white;
+			}
+		}
+	}
+}
+
+
+
+
+
+/*#hamMenuToggle:checked ~ .menu__btn > span {
+	transform: rotate(45deg);
+}
+#hamMenuToggle:checked ~ .menu__btn > span::before {
+	top: 0;
+	transform: rotate(0);
+}
+#hamMenuToggle:checked ~ .menu__btn > span::after {
+	top: 0;
+	transform: rotate(90deg);
+}
+#hamMenuToggle:checked ~ .menu__box {
+	visibility: visible;
+	left: 0;
+}
+
+.menu__btn {
+	display: flex;
+	align-items: center;
+	position: fixed;
+	top: 20px;
+	left: 20px;
+
+	width: 26px;
+	height: 26px;
+
+	cursor: pointer;
+	z-index: 1;
+}
+
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+	display: block;
+	position: absolute;
+
+	width: 100%;
+	height: 2px;
+
+	background-color: #616161;
+
+	transition-duration: .25s;
+}
+.menu__btn > span::before {
+	content: '';
+	top: -8px;
+}
+.menu__btn > span::after {
+	content: '';
+	top: 8px;
+}
+
+.menu__box {
+	display: block;
+	position: fixed;
+	visibility: hidden;
+	top: 0;
+	left: -100%;
+
+	width: 300px;
+	height: 100%;
+
+	margin: 0;
+	padding: 80px 0;
+
+	list-style: none;
+
+	background-color: #0f90e7;
+	box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+
+	transition-duration: .25s;
+}
+
+.menu__item {
+	display: block;
+	padding: 12px 24px;
+
+	color: #333;
+
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+
+	text-decoration: none;
+
+	transition-duration: .25s;
+}
+.menu__item:hover {
+	background-color: #CFD8DC;
+}
+*/
