@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdeece3f-8913-425b-a8a9-651531748bce" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cpl.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ir.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppl.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sep.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/global.less" beforeDir="false" afterPath="$PROJECT_DIR$/assets/less/global.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/less/headers.less" beforeDir="false" afterPath="$PROJECT_DIR$/assets/less/headers.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/less/menu.less" beforeDir="false" afterPath="$PROJECT_DIR$/assets/less/menu.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.min.css" afterDir="false" />
     </list>
@@ -46,9 +49,23 @@
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunManager" selected="Grunt.js.watch">
     <configuration default="true" type="js.build_tools.grunt">
       <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="less" type="js.build_tools.grunt" temporary="true">
+      <node-interpreter value="project" />
+      <gruntfile value="$PROJECT_DIR$/Gruntfile.js" />
+      <tasks>
+        <task value="less" />
+      </tasks>
       <envs />
       <method v="2" />
     </configuration>
@@ -74,6 +91,7 @@
       <list>
         <item itemvalue="Grunt.js.watch" />
         <item itemvalue="Grunt.js.prepareCss" />
+        <item itemvalue="Grunt.js.less" />
       </list>
     </recent_temporary>
   </component>
@@ -113,6 +131,19 @@
       <workItem from="1620842355607" duration="4351000" />
       <workItem from="1620907389792" duration="1762000" />
       <workItem from="1620909901393" duration="5479000" />
+      <workItem from="1620946154150" duration="164000" />
+      <workItem from="1620991856403" duration="937000" />
+      <workItem from="1621183525889" duration="2064000" />
+      <workItem from="1621238447939" duration="600000" />
+      <workItem from="1621356150585" duration="844000" />
+      <workItem from="1621408669595" duration="11000" />
+      <workItem from="1621673553022" duration="3530000" />
+      <workItem from="1621841402294" duration="705000" />
+      <workItem from="1622671635750" duration="93000" />
+      <workItem from="1622671816087" duration="66000" />
+      <workItem from="1622735253166" duration="4701000" />
+      <workItem from="1622798722745" duration="9052000" />
+      <workItem from="1622851500458" duration="3156000" />
     </task>
     <servers />
   </component>
@@ -120,22 +151,22 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1874" height="276" key="GridCell.Tab.0.bottom" timestamp="1620946144040">
+    <state width="1874" height="276" key="GridCell.Tab.0.bottom" timestamp="1622816130131">
       <screen x="0" y="0" width="1920" height="1045" />
     </state>
-    <state width="1874" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1045@0.0.1920.1045" timestamp="1620946144040" />
-    <state width="1874" height="276" key="GridCell.Tab.0.center" timestamp="1620946144039">
+    <state width="1874" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1045@0.0.1920.1045" timestamp="1622816130131" />
+    <state width="1874" height="276" key="GridCell.Tab.0.center" timestamp="1622816130130">
       <screen x="0" y="0" width="1920" height="1045" />
     </state>
-    <state width="1874" height="276" key="GridCell.Tab.0.center/0.0.1920.1045@0.0.1920.1045" timestamp="1620946144039" />
-    <state width="1874" height="276" key="GridCell.Tab.0.left" timestamp="1620946144039">
+    <state width="1874" height="276" key="GridCell.Tab.0.center/0.0.1920.1045@0.0.1920.1045" timestamp="1622816130130" />
+    <state width="1874" height="276" key="GridCell.Tab.0.left" timestamp="1622816130130">
       <screen x="0" y="0" width="1920" height="1045" />
     </state>
-    <state width="1874" height="276" key="GridCell.Tab.0.left/0.0.1920.1045@0.0.1920.1045" timestamp="1620946144039" />
-    <state width="1874" height="276" key="GridCell.Tab.0.right" timestamp="1620946144039">
+    <state width="1874" height="276" key="GridCell.Tab.0.left/0.0.1920.1045@0.0.1920.1045" timestamp="1622816130130" />
+    <state width="1874" height="276" key="GridCell.Tab.0.right" timestamp="1622816130131">
       <screen x="0" y="0" width="1920" height="1045" />
     </state>
-    <state width="1874" height="276" key="GridCell.Tab.0.right/0.0.1920.1045@0.0.1920.1045" timestamp="1620946144039" />
+    <state width="1874" height="276" key="GridCell.Tab.0.right/0.0.1920.1045@0.0.1920.1045" timestamp="1622816130131" />
     <state x="464" y="156" key="SettingsEditor" timestamp="1620681246351">
       <screen x="0" y="0" width="1920" height="1045" />
     </state>
