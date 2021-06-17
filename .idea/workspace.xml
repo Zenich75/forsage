@@ -2,14 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdeece3f-8913-425b-a8a9-651531748bce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cpl.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ir.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppl.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sep.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/at3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jquery360.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ppl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tecnam.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/header-link-block.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/header-main.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/header-meta-tags.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/header-pages.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/menu.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/less/global.less" beforeDir="false" afterPath="$PROJECT_DIR$/assets/less/global.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/less/headers.less" beforeDir="false" afterPath="$PROJECT_DIR$/assets/less/headers.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpl.html" beforeDir="false" afterPath="$PROJECT_DIR$/cpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ir.html" beforeDir="false" afterPath="$PROJECT_DIR$/ir.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppl.html" beforeDir="false" afterPath="$PROJECT_DIR$/k10.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sep.html" beforeDir="false" afterPath="$PROJECT_DIR$/sep.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.min.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +37,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -46,10 +60,13 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.PHP" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -143,7 +160,16 @@
       <workItem from="1622671816087" duration="66000" />
       <workItem from="1622735253166" duration="4701000" />
       <workItem from="1622798722745" duration="9052000" />
-      <workItem from="1622851500458" duration="3156000" />
+      <workItem from="1622851500458" duration="3271000" />
+      <workItem from="1622930928584" duration="672000" />
+      <workItem from="1622976807283" duration="5346000" />
+      <workItem from="1623051001634" duration="2407000" />
+      <workItem from="1623102262484" duration="800000" />
+      <workItem from="1623140255357" duration="603000" />
+      <workItem from="1623695579168" duration="2440000" />
+      <workItem from="1623740042727" duration="357000" />
+      <workItem from="1623868218189" duration="1455000" />
+      <workItem from="1623914812845" duration="13067000" />
     </task>
     <servers />
   </component>
@@ -151,25 +177,33 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1874" height="276" key="GridCell.Tab.0.bottom" timestamp="1622816130131">
+    <state width="1874" height="276" key="GridCell.Tab.0.bottom" timestamp="1623968688385">
       <screen x="0" y="0" width="1920" height="1045" />
     </state>
-    <state width="1874" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1045@0.0.1920.1045" timestamp="1622816130131" />
-    <state width="1874" height="276" key="GridCell.Tab.0.center" timestamp="1622816130130">
+    <state width="1874" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1045@0.0.1920.1045" timestamp="1623968688385" />
+    <state width="1874" height="276" key="GridCell.Tab.0.center" timestamp="1623968688384">
       <screen x="0" y="0" width="1920" height="1045" />
     </state>
-    <state width="1874" height="276" key="GridCell.Tab.0.center/0.0.1920.1045@0.0.1920.1045" timestamp="1622816130130" />
-    <state width="1874" height="276" key="GridCell.Tab.0.left" timestamp="1622816130130">
+    <state width="1874" height="276" key="GridCell.Tab.0.center/0.0.1920.1045@0.0.1920.1045" timestamp="1623968688384" />
+    <state width="1874" height="276" key="GridCell.Tab.0.left" timestamp="1623968688384">
       <screen x="0" y="0" width="1920" height="1045" />
     </state>
-    <state width="1874" height="276" key="GridCell.Tab.0.left/0.0.1920.1045@0.0.1920.1045" timestamp="1622816130130" />
-    <state width="1874" height="276" key="GridCell.Tab.0.right" timestamp="1622816130131">
+    <state width="1874" height="276" key="GridCell.Tab.0.left/0.0.1920.1045@0.0.1920.1045" timestamp="1623968688384" />
+    <state width="1874" height="276" key="GridCell.Tab.0.right" timestamp="1623968688384">
       <screen x="0" y="0" width="1920" height="1045" />
     </state>
-    <state width="1874" height="276" key="GridCell.Tab.0.right/0.0.1920.1045@0.0.1920.1045" timestamp="1622816130131" />
-    <state x="464" y="156" key="SettingsEditor" timestamp="1620681246351">
+    <state width="1874" height="276" key="GridCell.Tab.0.right/0.0.1920.1045@0.0.1920.1045" timestamp="1623968688384" />
+    <state x="780" y="447" width="349" height="148" key="NewPhpFileDialog" timestamp="1623102384771">
       <screen x="0" y="0" width="1920" height="1045" />
     </state>
-    <state x="464" y="156" key="SettingsEditor/0.0.1920.1045@0.0.1920.1045" timestamp="1620681246351" />
+    <state x="780" y="447" width="349" height="148" key="NewPhpFileDialog/0.0.1920.1045@0.0.1920.1045" timestamp="1623102384771" />
+    <state x="464" y="156" key="SettingsEditor" timestamp="1623878121515">
+      <screen x="0" y="0" width="1920" height="1045" />
+    </state>
+    <state x="464" y="156" key="SettingsEditor/0.0.1920.1045@0.0.1920.1045" timestamp="1623878121515" />
+    <state x="665" y="265" width="589" height="512" key="find.popup" timestamp="1623962106369">
+      <screen x="0" y="0" width="1920" height="1045" />
+    </state>
+    <state x="665" y="265" width="589" height="512" key="find.popup/0.0.1920.1045@0.0.1920.1045" timestamp="1623962106369" />
   </component>
 </project>

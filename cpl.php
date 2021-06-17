@@ -1,51 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-	<meta http-equiv="Pragma" content="no-cache" />
-	<meta http-equiv="Expires" content="0" />
-
+	<?php
+		include 'templates/header-meta-tags.php';
+		include 'templates/header-link-block.php';
+	?>
 	<title>Title</title>
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="styles/style.min.css?v=25">
 </head>
 <body>
 	<a name="top"></a>
-	<div class="nav">
-		<div class="menuBlock">
-			<div class="logo">
-				<div class="schoolLogo">
-					<img src="images/logo.png" alt="">
-				</div>
-				<div class="schoolName">Льотна школа "Форсаж"</div>
-			</div>
-			<div class="menu">
-				<div class="menuItem"><a href="index.html#top">Головна</a></div>
-				<div class="menuItem"><a href="index.html#programm">Програма навчання</a></div>
-				<div class="menuItem"><a href="index.html#fleet">Повітряний флот</a></div>
-				<div class="menuItem"><a href="index.html#about">Про нас</a></div>
-				<div class="menuItem">
-				</div>
-			</div>
-			<div class="hamMenu">
-				<input id="hamMenuToggle" type="checkbox" />
-				<label class="hamMenuBtn" for="hamMenuToggle">
-					<span></span>
-				</label>
 
-				<ul class="hamMenuBox">
-					<li><a class="hamMenuItem" href="index.html#top">Головна</a></li>
-					<li><a class="hamMenuItem" href="index.html#programm">Програма навчання</a></li>
-					<li><a class="hamMenuItem" href="index.html#fleet">Повітряний флот</a></li>
-					<li><a class="hamMenuItem" href="index.html#about">Про нас</a></li>
-				</ul>
-			</div>
-
-		</div>
-	</div>
+	<?php
+		include 'templates/menu.php';
+	?>
 
 	<div id="headerSmall">
 		<div class="schoolNameBlock">
@@ -118,22 +85,7 @@
 		</div>
 	</div>
 
-	<div id="footer">
-		<div class="footerMenuBlock">
-			<div class="footerLogo">
-				<div class="footerSchoolLogo">
-					<img src="images/logo.png" alt="">
-				</div>
-				<div class="footerSchoolName">Льотна школа "Форсаж"</div>
-			</div>
-			<div class="footerMenu">
-				<div class="footerMenuItem"><a href="#top">Головна</a></div>
-				<div class="footerMenuItem"><a href="#programm">Програма навчання</a></div>
-				<div class="footerMenuItem"><a href="#fleet">Повітряний флот</a></div>
-				<div class="footerMenuItem"><a href="#about">Про нас</a></div>
-			</div>
-		</div>
-	</div>
+    <?php include 'templates/footer.php'; ?>
 
 </body>
 </html>

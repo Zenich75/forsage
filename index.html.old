@@ -71,25 +71,25 @@
 
 		<div class="cardBlock">
 			<div class="cardItem">
-				<a href="ppl.html">
+				<a href="ppl.php">
 					<div class="cardImage"><img src="images/main-plane001.jpg" alt=""></div>
 					<div class="cardDescription">Курс підготовки для отримання ліцензії приватного пілота (PPL(A))</div>
 				</a>
 			</div>
 			<div class="cardItem">
-				<a href="cpl.html">
+				<a href="cpl.php">
 					<div class="cardImage"><img src="images/main-plane002.jpg" alt=""></div>
 					<div class="cardDescription">Курс підготовки для отримання ліцензії комерційного пілота (СPL(A)/IR)</div>
 				</a>
 			</div>
 			<div class="cardItem">
-				<a href="sep.html">
+				<a href="sep.php">
 					<div class="cardImage"><img src="images/main-plane003.jpg" alt=""></div>
 					<div class="cardDescription">Підготовка для отримання рейтингу класу SEP або MEP</div>
 				</a>
 			</div>
 			<div class="cardItem">
-				<a href="ir.html">
+				<a href="ir.php">
 					<div class="cardImage"><img src="images/main-plane004.jpg" alt=""></div>
 					<div class="cardDescription">Підготовка для отримання рейтингу IR (право виконання польотів за приладами)</div>
 				</a>

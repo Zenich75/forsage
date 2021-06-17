@@ -6,7 +6,7 @@
     "type": "git",
     "url": "https://zenich75@bitbucket.org/zenich75/cedesign-new.git"
   },
-  "main": "index.html",
+  "main": "index.html.old",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
