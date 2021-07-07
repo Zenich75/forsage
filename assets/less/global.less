@@ -266,6 +266,43 @@ h1 {
 			margin: 20px 0 50px 0;
 		}
 	}
+
+	.instructorBlock {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: flex-start;
+		flex-wrap: wrap;
+		margin-bottom: 30px;
+
+		@media all and (min-width: 576px) {
+			flex-wrap: nowrap;
+			margin-bottom: 20px;
+		}
+
+		.instructorImage {
+			width: 98%;
+			padding: 0 1%;
+
+			@media all and (min-width: 576px) {
+				width: 18%;
+			}
+
+			img {
+				width: 100%;
+			}
+		}
+
+		.instructorDescription {
+			width: 98%;
+			padding: 0 1%;
+			text-align: left;
+
+			@media all and (min-width: 576px) {
+				width: 78%;
+			}
+		}
+	}
 }
 
 #footer {

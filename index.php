@@ -87,27 +87,44 @@
 	<div class="cardBlock personnel">
 		<div class="cardItem">
 			<div class="cardImage"><img src="images/staff002.png" alt=""></div>
-			<div class="cardDescription">Давидкін Дмитро Володимирович<br><span>Керівник з підготовки</span></div>
+			<div class="cardDescription">
+				<a href="instructors.php#instructor1">Давидкін Дмитро Володимирович<br><span>Керівник з підготовки</span></a>
+			</div>
 		</div>
+
 		<div class="cardItem">
 			<div class="cardImage"><img src="images/staff003.png" alt=""></div>
-			<div class="cardDescription">Остапенко Олег Анатолійович<br><span>Керівник з безпеки польотів</span></div>
+			<div class="cardDescription">
+				<a href="instructors.php#instructor3">Остапенко Олег Анатолійович<br><span>Керівник з безпеки польотів</span></a>
+			</div>
 		</div>
+
 		<div class="cardItem">
 			<div class="cardImage"><img src="images/staff001.png" alt=""></div>
-			<div class="cardDescription">Остапенко Олександр Анатолійович<br><span>Головний льотний інструктор</span></div>
+			<div class="cardDescription">
+				<a href="instructors.php#instructor2">Остапенко Олександр Анатолійович<br><span>Головний льотний інструктор</span></a>
+			</div>
 		</div>
+
 		<div class="cardItem">
 			<div class="cardImage"><img src="images/staff004.png" alt=""></div>
-			<div class="cardDescription">Сєдов Максим Геннадійович<br><span>Льотний інструктор</span></div>
+			<div class="cardDescription">
+				<a href="instructors.php#instructor4">Сєдов Максим Геннадійович<br><span>Льотний інструктор</span></a>
+			</div>
 		</div>
+
 		<div class="cardItem">
 			<div class="cardImage"><img src="images/staff005.png" alt=""></div>
-			<div class="cardDescription">Кочерженко Дмитро Олександрович<br><span>Інструктор теоретичної підготовки</span></div>
+			<div class="cardDescription">
+				<a href="instructors.php#instructor6">Кочерженко Дмитро Олександрович<br><span>Інструктор теоретичної підготовки</span></a>
+			</div>
 		</div>
+
 		<div class="cardItem">
 			<div class="cardImage"><img src="images/staff006.png" alt=""></div>
-			<div class="cardDescription">Олійник Олексій Олексійович<br><span>Інструктор теоретичної підготовки</span></div>
+			<div class="cardDescription">
+				<a href="instructors.php#instructor5">Олійник Олексій Олексійович<br><span>Інструктор теоретичної підготовки</span></a>
+			</div>
 		</div>
 	</div>
 

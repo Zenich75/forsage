@@ -119,7 +119,7 @@
 				<tr class="odd">
 					<td class="cellOne"></td>
 					<td class="cellTwo">Розмах крила</td>
-					<td class="cellThree">8.5 9.1</td>
+					<td class="cellThree">9.1</td>
 				</tr>
 				<tr>
 					<td class="cellOne"></td>
@@ -129,12 +129,12 @@
 				<tr class="odd">
 					<td class="cellOne"></td>
 					<td class="cellTwo">Двигун</td>
-					<td class="cellThree">ROTAX 912 UL, ROTAX 912 ULS</td>
+					<td class="cellThree">ROTAX 912 ULS</td>
 				</tr>
 				<tr>
 					<td class="cellOne"></td>
 					<td class="cellTwo">Потужність</td>
-					<td class="cellThree">80-100 к.с. 115 к.с. (форсаж)</td>
+					<td class="cellThree">100 к.с.</td>
 				</tr>
 				<tr class="odd">
 					<td class="cellOne"></td>
@@ -144,7 +144,7 @@
 				<tr>
 					<td class="cellOne"></td>
 					<td class="cellTwo">Максимальна швидкість з випущеними закрилками</td>
-					<td class="cellThree">120 км/год</td>
+					<td class="cellThree">125 км/год</td>
 				</tr>
 				<tr class="odd">
 					<td class="cellOne"></td>
@@ -154,52 +154,47 @@
 				<tr>
 					<td class="cellOne"></td>
 					<td class="cellTwo">Швидкість відриву</td>
-					<td class="cellThree"></td>
+					<td class="cellThree">81 км/год</td>
 				</tr>
 				<tr class="odd">
-					<td class="cellOne"></td>
-					<td class="cellTwo">81 км/год</td>
-					<td class="cellThree"></td>
-				</tr>
-				<tr>
 					<td class="cellOne"></td>
 					<td class="cellTwo">Швидкість завалювання (закрилки прибрані, режим двигуна "МГ")</td>
-					<td class="cellThree">78 км/год, 82 км/год</td>
+					<td class="cellThree">78 км/год</td>
 				</tr>
-				<tr class="odd">
+				<tr>
 					<td class="cellOne"></td>
 					<td class="cellTwo">Розбіг/пробіг</td>
-					<td class="cellThree">130/90 м, 100/75 м</td>
+					<td class="cellThree">130/90 м, 120/90 м</td>
 				</tr>
-				<tr>
+				<tr class="odd">
 					<td class="cellOne"></td>
 					<td class="cellTwo">Скоропідйомність біля землі</td>
-					<td class="cellThree">5-7 м/с, 6 м/с</td>
+					<td class="cellThree">3-5 м/с</td>
 				</tr>
-				<tr class="odd">
+				<tr>
 					<td class="cellOne"></td>
 					<td class="cellTwo">Ємність паливних баків</td>
-					<td class="cellThree">65л, 80л</td>
+					<td class="cellThree">80 л</td>
 				</tr>
-				<tr>
+				<tr class="odd">
 					<td class="cellOne"></td>
 					<td class="cellTwo">Ємність багажного відсіку</td>
-					<td class="cellThree">300л, 360л</td>
-				</tr>
-				<tr class="odd">
-					<td class="cellOne"></td>
-					<td class="cellTwo">Крейсерська швидкість (обороти двигуна 5000 об/хв)</td>
-					<td class="cellThree">200 км/год, 180 км/год</td>
+					<td class="cellThree">40 кг</td>
 				</tr>
 				<tr>
 					<td class="cellOne"></td>
-					<td class="cellTwo">Максимальна злітна маса</td>
-					<td class="cellThree">575-625 кг</td>
+					<td class="cellTwo">Крейсерська швидкість (обороти двигуна 5000 об/хв)</td>
+					<td class="cellThree">200 км/год</td>
 				</tr>
 				<tr class="odd">
 					<td class="cellOne"></td>
+					<td class="cellTwo">Максимальна злітна маса</td>
+					<td class="cellThree">575 кг</td>
+				</tr>
+				<tr>
+					<td class="cellOne"></td>
 					<td class="cellTwo">Експлуатаційне перевантаження</td>
-					<td class="cellThree">+4.4/-0.5 +3.8/-0.5</td>
+					<td class="cellThree">+3.8/-0.5</td>
 				</tr>
 			</table>
 		</div>
