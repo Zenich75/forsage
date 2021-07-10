@@ -88,8 +88,9 @@ h1 {
 			margin-bottom: 20px;
 
 			@media all and (min-width: 576px) {
-				width: 23%;
-				margin-bottom: 0;
+				//width: 23%;
+				width: 32%;
+				//margin-bottom: 0;
 			}
 
 			a, a:visited {
@@ -356,6 +357,29 @@ h1 {
 			text-align: center;
 			padding: 20px;
 			font-weight: bold;
+		}
+
+		input {
+			font-size: 16px;
+			width: 98%;
+			padding: 10px 1%;
+			margin: 10px 0;
+		}
+
+		.error {
+			color: red;
+		}
+
+		#sendCallback, #closeCallback {
+			width: 98%;
+			margin: 10px 1%;
+			cursor: pointer;
+
+			@media all and (min-width: 576px) {
+				display: inline-block;
+				width: 47%;
+				padding: 20px 0;
+			}
 		}
 	}
 }

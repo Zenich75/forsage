@@ -23,6 +23,20 @@
 	</div>
 </div>
 
+<div class="modal" id="modalCallback">
+	<div class="modal-form">
+		<div class="modal-title">Зворотній зв'язок</div>
+		<div class="modal-content">
+			<label for="name">Ім'я</label>
+			<input type="text" name="name" id="name"><br>
+			<label for="phone">Номер телефону</label>
+			<input type="text" name="phone" id="phone">
+		</div>
+		<div class="modal-button" id="sendCallback">Надіслати</div>
+		<div class="modal-button" id="closeCallback">Зачинити</div>
+	</div>
+</div>
+
 <script>
 
     function defer(method) {
@@ -33,6 +47,16 @@
         }
     }
 
+    function checkTextField (obj) {
+        if($(obj).val().trim() == '') {
+            $(obj).addClass('error').val('Заповніть поле');
+            return false;
+		} else {
+            $(obj).removeClass('error');
+            return true;
+		}
+	}
+
     defer(function(){
 		$("#showModalPhones").click(function(){
 			$('#modalPhones').show();
@@ -41,6 +65,32 @@
         $("#closePhones").click(function(){
             $('#modalPhones').hide();
         });
+
+        $("#closeCallback").click(function(){
+            $('#modalCallback').hide();
+        });
+
+        $("#callback, #callbackMobile").click(function(){
+            $('#modalCallback').show();
+        });
+
+        $('#name').focus(function(){
+            $(this).removeClass('error').val('');
+		});
+
+        $('#phone').focus(function(){
+            $(this).removeClass('error').val('');
+        });
+
+        $('#sendCallback').click(function(){
+            if(checkTextField($('#name') && checkTextField($('#phone'))){
+
+			};
+		});
+        //$("#phone").mask("+380 (99) 999-99-99");
+
+
+
 	});
 
 </script>

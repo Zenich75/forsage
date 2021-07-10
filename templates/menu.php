@@ -11,6 +11,7 @@
 			<div class="menuItem"><a href="index.php#programm">Програма навчання</a></div>
 			<div class="menuItem"><a href="index.php#fleet">Повітряний флот</a></div>
 			<div class="menuItem"><a href="index.php#about">Про нас</a></div>
+			<div class="menuItem"><a href="#" id="callback">Зворотній зв'язок</a></div>
 			<div class="menuItem">
 			</div>
 		</div>
@@ -25,6 +26,7 @@
 				<li><a class="hamMenuItem" href="index.php#programm">Програма навчання</a></li>
 				<li><a class="hamMenuItem" href="index.php#fleet">Повітряний флот</a></li>
 				<li><a class="hamMenuItem" href="index.php#about">Про нас</a></li>
+				<li><a class="hamMenuItem" href="#" id="callbackMobile">Зворотній зв'язок</a></li>
 			</ul>
 		</div>
 	</div>

@@ -49,6 +49,16 @@
 				<div class="cardDescription">Підготовка для отримання рейтингу IR (право виконання польотів за приладами)</div>
 			</a>
 		</div>
+		<div class="cardItem">
+				<div class="cardImage"><img src="images/main-plane008.jpg" alt=""></div>
+				<div class="cardDescription">Курс оцінювання мовної компетенції за шкалою ICAO</div>
+		</div>
+		<div class="cardItem">
+
+				<div class="cardImage"><img src="images/main-plane007.jpg" alt=""></div>
+				<div class="cardDescription">Курс підготовки членів екіпажу ПС до ведення радіозв'язку англійскою мовою</div>
+
+		</div>
 	</div>
 
 	<div class="videoContainer">
