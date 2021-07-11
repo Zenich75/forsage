@@ -20,7 +20,7 @@
 			<div class="schoolPlane">
 				<img src="images/plane004.png" alt="">
 			</div>
-			<div class="schoolButton">Записатися на курси</div>
+			<div class="schoolButton" id="showModalPhones">Записатися на курси</div>
 		</div>
 	</div>
 
