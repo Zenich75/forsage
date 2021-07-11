@@ -200,22 +200,7 @@
 		</div>
 	</div>
 
-	<div id="footer">
-		<div class="footerMenuBlock">
-			<div class="footerLogo">
-				<div class="footerSchoolLogo">
-					<img src="images/logo.png" alt="">
-				</div>
-				<div class="footerSchoolName">Льотна школа "Форсаж"</div>
-			</div>
-			<div class="footerMenu">
-				<div class="footerMenuItem"><a href="#top">Головна</a></div>
-				<div class="footerMenuItem"><a href="#programm">Програма навчання</a></div>
-				<div class="footerMenuItem"><a href="#fleet">Повітряний флот</a></div>
-				<div class="footerMenuItem"><a href="#about">Про нас</a></div>
-			</div>
-		</div>
-	</div>
+    <?php include 'templates/footer.php'; ?>
 
 </body>
 </html>
