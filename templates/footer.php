@@ -101,11 +101,11 @@
                     success: function(data, textStatus, jqXHR) {
                         if(data.result == 'error') {
                             $('#modalCallback').hide();
-                            $.alert('Помилка при відправці повідомлення');
+                            alert('Помилка при відправці повідомлення');
                             return false;
                         } else {
                             $('#modalCallback').hide();
-                            $.alert('Замовлення на зворотній зв\'язок відправлено');
+                            alert('Замовлення на зворотній зв\'язок відправлено');
                             return true;
                         }
                     },
