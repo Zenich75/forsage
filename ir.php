@@ -48,11 +48,11 @@
 			<table cellpadding="0" cellspacing="0">
 				<tr class="odd">
 					<td class="cellTwo">Практична тренувальна програма</td>
-					<td class="cellThree"></td>
+					<td class="cellThree">6 годин</td>
 				</tr>
 				<tr>
 					<td class="cellTwo">Екзаменаційни політ</td>
-					<td class="cellThree">1 годиниа 30 хв.</td>
+					<td class="cellThree">1 година 30 хв.</td>
 				</tr>
 			</table>
 			<div class="courseComment">Розрахунковий час проходження програми один тиждень.</div>
