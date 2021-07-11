@@ -83,9 +83,35 @@
         });
 
         $('#sendCallback').click(function(){
-            if(checkTextField($('#name') && checkTextField($('#phone'))){
+            if(checkTextField($('#name')) && checkTextField($('#phone'))){
+                var data = {
+                    'callback': {
+                        'name': $('#name').val(),
+                        'phone': $('#phone').val()
+					}
+				}
 
-			};
+                $('#name').val('')
+				$('#phone').val(''),
+
+                $.ajax({
+                    type: 'POST',
+                    url: '/sendcallbackrequest.php',
+					data: data,
+                    success: function(data, textStatus, jqXHR) {
+                        if(data.result == 'error') {
+                            $('#modalCallback').hide();
+                            $.alert('Помилка при відправці повідомлення');
+                            return false;
+                        } else {
+                            $('#modalCallback').hide();
+                            $.alert('Замовлення на зворотній зв\'язок відправлено');
+                            return true;
+                        }
+                    },
+                    error: function(jqXHR, textStatus, errorThrown) { $.alert(jqXHR.responseText); }
+                });
+			}
 		});
         //$("#phone").mask("+380 (99) 999-99-99");
 
