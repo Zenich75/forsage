@@ -50,14 +50,16 @@
 			</a>
 		</div>
 		<div class="cardItem">
+			<a href="scale.php">
 				<div class="cardImage"><img src="images/main-plane008.jpg" alt=""></div>
 				<div class="cardDescription">Курс оцінювання мовної компетенції за шкалою ICAO</div>
+			</a>
 		</div>
 		<div class="cardItem">
-
+			<a href="radio.php">
 				<div class="cardImage"><img src="images/main-plane007.jpg" alt=""></div>
 				<div class="cardDescription">Курс підготовки членів екіпажу ПС до ведення радіозв'язку англійскою мовою</div>
-
+			</a>
 		</div>
 	</div>
 
