@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdeece3f-8913-425b-a8a9-651531748bce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config/emails.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jquery360.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jquery360.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/header-link-block.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/header-link-block.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/global.less" beforeDir="false" afterPath="$PROJECT_DIR$/assets/less/global.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instructors.php" beforeDir="false" afterPath="$PROJECT_DIR$/instructors.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.min.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,11 +47,11 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/js" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager" selected="Grunt.js.watch">
@@ -160,7 +160,11 @@
       <workItem from="1625782582737" duration="1752000" />
       <workItem from="1625820462143" duration="1621000" />
       <workItem from="1625897976754" duration="3802000" />
-      <workItem from="1626011181928" duration="4638000" />
+      <workItem from="1626011181928" duration="8214000" />
+      <workItem from="1626071450129" duration="43000" />
+      <workItem from="1626803944285" duration="2217000" />
+      <workItem from="1626852128445" duration="640000" />
+      <workItem from="1627019354733" duration="567000" />
     </task>
     <servers />
   </component>
@@ -168,26 +172,26 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1874" height="276" key="GridCell.Tab.0.bottom" timestamp="1626012364606">
+    <state width="1874" height="276" key="GridCell.Tab.0.bottom" timestamp="1627019609632">
       <screen x="0" y="0" width="1920" height="1045" />
     </state>
-    <state width="1874" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1045@0.0.1920.1045" timestamp="1626012364606" />
-    <state width="1874" height="276" key="GridCell.Tab.0.center" timestamp="1626012364605">
+    <state width="1874" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1045@0.0.1920.1045" timestamp="1627019609632" />
+    <state width="1874" height="276" key="GridCell.Tab.0.center" timestamp="1627019609631">
       <screen x="0" y="0" width="1920" height="1045" />
     </state>
-    <state width="1874" height="276" key="GridCell.Tab.0.center/0.0.1920.1045@0.0.1920.1045" timestamp="1626012364605" />
-    <state width="1874" height="276" key="GridCell.Tab.0.left" timestamp="1626012364604">
+    <state width="1874" height="276" key="GridCell.Tab.0.center/0.0.1920.1045@0.0.1920.1045" timestamp="1627019609631" />
+    <state width="1874" height="276" key="GridCell.Tab.0.left" timestamp="1627019609631">
       <screen x="0" y="0" width="1920" height="1045" />
     </state>
-    <state width="1874" height="276" key="GridCell.Tab.0.left/0.0.1920.1045@0.0.1920.1045" timestamp="1626012364604" />
-    <state width="1874" height="276" key="GridCell.Tab.0.right" timestamp="1626012364605">
+    <state width="1874" height="276" key="GridCell.Tab.0.left/0.0.1920.1045@0.0.1920.1045" timestamp="1627019609631" />
+    <state width="1874" height="276" key="GridCell.Tab.0.right" timestamp="1627019609632">
       <screen x="0" y="0" width="1920" height="1045" />
     </state>
-    <state width="1874" height="276" key="GridCell.Tab.0.right/0.0.1920.1045@0.0.1920.1045" timestamp="1626012364605" />
-    <state x="780" y="447" width="349" height="148" key="NewPhpFileDialog" timestamp="1626021571872">
+    <state width="1874" height="276" key="GridCell.Tab.0.right/0.0.1920.1045@0.0.1920.1045" timestamp="1627019609632" />
+    <state x="780" y="447" width="349" height="148" key="NewPhpFileDialog" timestamp="1626023037705">
       <screen x="0" y="0" width="1920" height="1045" />
     </state>
-    <state x="780" y="447" width="349" height="148" key="NewPhpFileDialog/0.0.1920.1045@0.0.1920.1045" timestamp="1626021571872" />
+    <state x="780" y="447" width="349" height="148" key="NewPhpFileDialog/0.0.1920.1045@0.0.1920.1045" timestamp="1626023037705" />
     <state x="464" y="156" key="SettingsEditor" timestamp="1623878121515">
       <screen x="0" y="0" width="1920" height="1045" />
     </state>

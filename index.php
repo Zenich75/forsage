@@ -138,6 +138,13 @@
 				<a href="instructors.php#instructor5">Олійник Олексій Олексійович<br><span>Інструктор теоретичної підготовки</span></a>
 			</div>
 		</div>
+
+		<div class="cardItem">
+			<div class="cardImage"><img src="images/staff007.png" alt=""></div>
+			<div class="cardDescription">
+				<a href="instructors.php#instructor7">Собко Лілія Миколаївна<br><span>Викладач англійської мови</span></a>
+			</div>
+		</div>
 	</div>
 
 	<div class="delimeter"></div>
